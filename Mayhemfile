@@ -1,0 +1,6 @@
+project: rnshah9/mayhem-libforth
+target: forth
+
+cmds:
+  - cmd: /repo/forth -l @@
+    filepath: /test.fth
