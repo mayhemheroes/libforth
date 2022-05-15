@@ -4,6 +4,6 @@ target: forth
 cmds:
   - cmd: /repo/forth -l @@
     filepath: /test.fth
-  - cmd: /repo/forth -l -v @@
+  - cmd: /repo/forth -l @@ -v
     filepath: /test.fth
   - cmd: /repo/forth
