@@ -2,4 +2,4 @@ project: libforth
 target: forth
 
 cmds:
-  - cmd: /repo/forth
+  - cmd: /forth
