@@ -1,0 +1,8 @@
+# Target `forth` — in-process libFuzzer harness (mayhem/fuzz_forth.c) driving the
+# libforth interpreter over forth_eval_block(), replacing the old raw `/forth`
+# stdin CLI target (same code path, now instrumented).
+project: libforth
+target: forth
+
+cmds:
+  - cmd: /mayhem/fuzz_forth
